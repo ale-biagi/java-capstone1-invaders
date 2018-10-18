@@ -10,8 +10,7 @@ public class SpaceShipView extends Observer {
 	// the space ship is stored in a PNG image
 	private PImage ship;
 
-	// this observer observes the state and behavior of a space ship to update the
-	// screen
+	// this observer observes the state and behavior of a space ship to update the screen
 	// so it needs to have a space ship object assigned...
 
 	public SpaceShipView(PApplet display, GameObject object) {

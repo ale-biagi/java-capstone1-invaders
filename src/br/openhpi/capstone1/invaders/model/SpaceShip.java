@@ -30,6 +30,7 @@ public class SpaceShip extends GameObject {
 
 		// one ship less
 		this.scorer.ships--;
+		this.background.keepMoving = (this.scorer.ships >= 0);
 		notifyAllObservers();
 	}
 
